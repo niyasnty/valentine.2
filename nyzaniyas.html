@@ -1,0 +1,86 @@
+<html>
+<head>
+  <title>Valentine's Day</title>
+
+  <style>
+    body {
+      background-color: purple;
+      text-align: center;
+      font-family: Arial;
+    }
+
+    img {
+      width: 200px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      background-color: red;
+      color: white;
+      border-radius: 5px;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+<script>
+  var pass = prompt("Enter the secret password 💖");
+  if (pass !== "nyzaniyas") {
+    alert("Wrong password 😢");
+    window.location.reload();
+  }
+  setInterval(() => {
+  const heart = document.createElement("div");
+  heart.className = "heart-float";
+  heart.innerHTML = "❤️";
+  heart.style.left = Math.random() * 100 + "vw";
+  document.body.appendChild(heart);
+
+  setTimeout(() => heart.remove(), 4000);
+}, 500);
+
+</script>
+
+  <h1>Happy Valentine's Day Muu ❤️</h1>
+
+  <h3>Niyas ❤️ Yamuna</h3>
+
+  <!-- Couple Photo -->
+  <img src= "C:\Users\ELCOT\Documents\Niyas\WhatsApp Image 2026-02-05 at 12.17.18 AM.jpeg"alt="Couple Photo">
+
+  <!-- Message -->
+  <p>
+  <p id="counter"></p>
+
+<script>
+  const startDate = new Date("09-08-2025"); // change date
+  const today = new Date();
+  const diff = today - startDate;
+  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+
+  document.getElementById("counter").innerText =
+    "We have been together for " + days + " days ❤️";
+</script>
+
+    You are my favorite person and my forever ❤️
+    You are my today,tomorrow & Always ❤️
+    In the quiet of my heart,your name is my favorite poem ❤️
+     
+  </p>
+
+  <!-- Music -->
+  <audio controls=autoplay>
+    <source src="C:\Users\ELCOT\Documents\Niyas\eppadi-vandhaayo-video-song-aaromaley-kishen-das-shivathmika-harshath-khan_6Z6mzGdk.mp3"type="audio/mpeg">
+  </audio>
+
+  <br><br>
+
+  <button>Love You Thangoo 💖</button>
+
+</body>
+</html>
